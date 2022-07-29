@@ -1,0 +1,43 @@
+.typography {
+
+    & &__big_heading {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 76px;
+        letter-spacing: 0.19em;
+    }
+
+    &__sub_heading {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 43px;
+        text-align: center;
+    }
+
+    &__body1 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.19em;
+    }
+
+    &__btn_text {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.19em;
+        text-transform: uppercase;
+    }
+
+    &__nav_item {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@atoms/*": [
+                "src/ui_kits/atoms/*"
+            ],
+            "@molecules/*": [
+                "src/ui_kits/molecules/*"
+            ],
+            "@organisms/*": [
+                "src/ui_kits/organisms/*"
+            ],
+            "@templates/*": [
+                "src/ui_kits/templates/*"
+            ],
+            "@pages/*": [
+                "src/ui_kits/pages/*"
+            ],
+        },
+    }
+}
