@@ -11,6 +11,10 @@
         color: var(--primary-color);
     }
 
+    &.cursor-pointer {
+        cursor: pointer;
+    }
+
 
     // font styles
     &__big_heading {
