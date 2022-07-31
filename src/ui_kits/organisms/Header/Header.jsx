@@ -5,12 +5,15 @@ import './Header.styles.scss';
 
 function Header() {
   return (
-    <div className="navbar app_margin">
-      <div className="navbar_logo_wrapper">
-        <Logo />
+    <>
+      <div className="navbar_overlay" />
+      <div className="navbar app_margin">
+        <div className="navbar_logo_wrapper">
+          <Logo />
+        </div>
+        <NavbarItems />
       </div>
-      <NavbarItems />
-    </div>
+    </>
   );
 }
 

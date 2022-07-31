@@ -3,7 +3,7 @@ import Typography from '../Typography/Typography';
 import './NavbarItem.styles.scss';
 
 function NavbarItem({
-  color = 'black',
+  color = 'white',
   children,
 }) {
   return (

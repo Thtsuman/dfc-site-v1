@@ -1,0 +1,22 @@
+.hero_section {
+    position: relative;
+    height: 856px;    
+    width: 100vw;
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    
+    &_img {
+        z-index: -1;
+        position: absolute;
+        width: 100%;
+    }
+
+    &_overlay {
+        position: absolute;
+        bottom: 0;
+        width: inherit;
+        background: linear-gradient(180.17deg, rgba(0, 0, 0, 0) 0.15%, #000000 80.05%);
+        height: 579px;
+    }
+}
