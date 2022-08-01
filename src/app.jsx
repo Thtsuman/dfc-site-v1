@@ -1,13 +1,10 @@
 import React from 'react';
 import 'styles/global.styles.scss';
-import HeroSection from 'ui_kits/molecules/HeroSection/HeroSection';
-import Header from 'ui_kits/organisms/Header/Header';
+import HeroSectionWrapper from 'ui_kits/templates/HeroSectionWrapper/HeroSectionWrapper';
 
 const app = () => (
   <div className="app_wrapper">
-    <HeroSection>
-      <Header />
-    </HeroSection>
+    <HeroSectionWrapper />
   </div>
 );
 

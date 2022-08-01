@@ -1,4 +1,5 @@
 .typography {
+    color: white;
 
     // color
     & .black {
@@ -48,6 +49,7 @@
         line-height: 18px;
         letter-spacing: 0.19em;
         text-transform: uppercase;
+        color: black;
     }
 
     &__nav_item {
